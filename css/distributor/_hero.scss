@@ -1,0 +1,99 @@
+/*color*/
+@import "color_variable";
+/*color*/
+
+
+.hero_back{
+    width: 100%; height: 87.4rem; position: relative;
+    .carousel-item{
+        height: 87.4rem; width: 100%; position: relative;
+    }
+    &:after{
+        width: 100%; height: 7.9rem; background-image: url(../../images/banner_bottom_overlay.png); background-position: center top; position: absolute; bottom: -3.9rem; left: 0; content: ""; z-index: 9;
+    }
+    img{
+        width: 100%; height: 100%; object-fit: cover; object-position: right bottom; position: absolute; top: 0; left: 0;
+    }
+    #carouselExampleControls{
+        height: 87.4rem; width: 100%;  position: absolute; top: 0; left: 0;
+    }
+    .container-fluid{
+        height: 100%; position: absolute; top: 0; left: 0;
+    }
+    .contain_back{
+        width: 759px; height: 562px; background-image: url(../../images/banner_content_overlay.png); background-repeat: no-repeat; background-size: contain; position: absolute; bottom: 13px; left: 60px; text-align: center; padding-top: 35px; z-index: 10;
+        .main_content_back{
+            span{
+                background-image: url(../../images/oval.png); position: absolute; top: 0; left: -176px; width: 771px; height: 379px;
+            }
+            width: 54%; margin-left: -73px; text-align: center; display: inline-block; position: relative; z-index: 2;
+            .bird{
+                display: inline-block; width: auto; height: auto; display: inline-block; position: relative;
+            }
+            h3{
+                font-size: 3.6rem; display: inline-block; background-color: $primary_color; padding: 1.5rem 2.5rem; border-radius: 10rem; margin-top: 2.7rem; margin-bottom: 2.4rem;
+            }
+            p{
+                font-size: 6.5rem; font-weight: 700; color: $secondary_color; line-height: 6.7rem;
+            }
+            .custom_button{
+                position: relative;
+                &:before{
+                    background-image: url(../../images/a_child.png); width: 95px; height: 204px; position: absolute; top: -43px; left: -95px; content: "";
+                }
+                &:after{
+                    background-image: url(../../images/a_ladies.png); width: 141px; height: 204px; position: absolute; top: -44px; right: -141px; content: "";
+                }
+            }
+        }
+       
+    }
+}
+@media only screen and (max-width:1365px){
+    .hero_back{
+        &:after{
+            bottom: 0;
+        }
+    }
+}
+
+@media only screen and (max-width:1365px){
+    .hero_back{
+        .contain_back{
+            left: 7px;
+        }
+    }
+}
+
+@media only screen and (max-width:1023px){
+    .hero_back{
+        .contain_back{
+            left: 0; top: 0; bottom: auto; width: 100%; height: 100%; background-image: none; background-color: rgba(255,255,255,.4); display: flex; justify-content: center; align-items: center;
+            .main_content_back{ 
+                margin-left: 0;
+                span{
+                    width: 100%; left: 0; background-repeat: no-repeat; background-position: center;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:500px){
+    .hero_back{
+        .contain_back {
+            .main_content_back{
+                width: 100%;
+                .custom_button{
+                    &:before{
+                        display: none;
+                    }
+                    &:after{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

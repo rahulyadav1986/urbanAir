@@ -1,0 +1,54 @@
+
+@import "color_variable";
+.video_details_back{
+    width: 100%; padding: 10rem 0; background-color: $white2; overflow: hidden; background-image: url(../../images/pink_overlay.png); background-repeat: no-repeat; background-blend-mode:multiply; 
+    .row{
+        margin-right: -5.1rem;
+    }
+    .col-lg-6{
+        &.one{
+            padding-right: 0;
+        }
+        &.two{
+            padding-left: 0;
+        }
+    }
+    .video{
+        width: 100%;  position: relative; z-index: 9; cursor: pointer;
+        img{ width: 100%; display: block;
+        }
+    }
+    .content{
+        width: 100%; padding: 7rem 5rem 5rem 9rem;     box-shadow: rgba(139,139,139,35%) 8px 0 56px; margin-left: -3.6rem;
+        h2{
+            font-size: 4rem; padding-bottom: 3rem; position: relative; font-family: 'Catamaran', sans-serif; font-weight: 900; margin-bottom: 4rem;
+            &:after{
+                width: 19rem; height: 4px; background-color: $tertiary_color; position: absolute; bottom: 0; left: 0; content: "";
+            }
+        }
+        p{
+            font-size: 1.8rem; line-height: 3.4rem;
+        }
+    }
+}
+
+@media only screen and (max-width:1365px){
+    .video_details_back{
+        .content{
+            margin-left: 0;
+        }
+        .row{
+            margin-right: -15px;
+        }
+        .col-lg-6{
+            &.one{
+                padding-right: 15px;
+            }
+            &.two{
+                padding-left: 15px;
+            }
+        }
+    }
+    
+    
+}
