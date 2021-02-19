@@ -1562,7 +1562,7 @@ header .header_button a:before {
 .blog_details_back:before {
   width: 100%;
   height: 7.9rem;
-  background-image: url(../../images/pink_zigzag.png);
+  background-image: url(../images/pink_zigzag.png);
   background-position: center top;
   position: absolute;
   top: -7.9rem;
@@ -1574,7 +1574,7 @@ header .header_button a:before {
 .blog_details_back:after {
   width: 100%;
   height: 7.9rem;
-  background-image: url(../../images/pink_zigzag2.png);
+  background-image: url(../images/pink_zigzag2.png);
   background-position: center bottom;
   position: absolute;
   bottom: -7.9rem;
