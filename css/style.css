@@ -951,6 +951,7 @@ header .header_button a:before {
   -webkit-box-shadow: #8b8b8b 8px 0 56px;
           box-shadow: #8b8b8b 8px 0 56px;
   margin-left: -3.6rem;
+  background-color: #fff;
 }
 
 .video_details_back .content h2 {
