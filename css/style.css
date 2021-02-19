@@ -1,7 +1,7 @@
 /*common*/
 @font-face {
   font-family: 'Sansei';
-  src: url(../../fonts/Sensei-Medium.otf), url(../../fonts/Sensei-Medium.ttf);
+  src: url(../fonts/Sensei-Medium.otf), url(../fonts/Sensei-Medium.ttf);
 }
 
 body {
@@ -395,7 +395,7 @@ header {
 header:after {
   width: 100%;
   height: 6.1rem;
-  background: url(../../images/menu_overlay.png) center;
+  background: url(../images/menu_overlay.png) center;
   position: absolute;
   bottom: -6.1rem;
   left: 0;
@@ -437,7 +437,7 @@ header ul.menu li a {
 }
 
 header ul.menu li a:before {
-  background-image: url(../../images/menu_hover.png);
+  background-image: url(../images/menu_hover.png);
   width: 8px;
   height: 5px;
   position: absolute;
@@ -511,7 +511,7 @@ header .header_button a {
 }
 
 header .header_button a:before {
-  background: #fff url(../../images/h_map_icon.png) no-repeat center;
+  background: #fff url(../images/h_map_icon.png) no-repeat center;
   position: absolute;
   top: 0;
   left: 0;
@@ -568,7 +568,7 @@ header .header_button a:before {
 .hero_back:after {
   width: 100%;
   height: 7.9rem;
-  background-image: url(../../images/banner_bottom_overlay.png);
+  background-image: url(../images/banner_bottom_overlay.png);
   background-position: center top;
   position: absolute;
   bottom: -3.9rem;
@@ -607,7 +607,7 @@ header .header_button a:before {
 .hero_back .contain_back {
   width: 759px;
   height: 562px;
-  background-image: url(../../images/banner_content_overlay.png);
+  background-image: url(../images/banner_content_overlay.png);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -666,7 +666,7 @@ header .header_button a:before {
 }
 
 .hero_back .contain_back .main_content_back .custom_button:before {
-  background-image: url(../../images/a_child.png);
+  background-image: url(../images/a_child.png);
   width: 95px;
   height: 204px;
   position: absolute;
@@ -676,7 +676,7 @@ header .header_button a:before {
 }
 
 .hero_back .contain_back .main_content_back .custom_button:after {
-  background-image: url(../../images/a_ladies.png);
+  background-image: url(../images/a_ladies.png);
   width: 141px;
   height: 204px;
   position: absolute;
@@ -785,7 +785,7 @@ header .header_button a:before {
   width: 6.2rem;
   height: 100%;
   background-color: #e0e621;
-  background-image: url(../../images/arrow.png);
+  background-image: url(../images/arrow.png);
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -916,7 +916,7 @@ header .header_button a:before {
   padding: 10rem 0;
   background-color: #f9f9f9;
   overflow: hidden;
-  background-image: url(../../images/pink_overlay.png);
+  background-image: url(../images/pink_overlay.png);
   background-repeat: no-repeat;
   background-blend-mode: multiply;
 }
@@ -1151,7 +1151,7 @@ header .header_button a:before {
   width: 100%;
   display: block;
   background-color: #e0e621;
-  background-image: url(../../images/yellow_overlay.png);
+  background-image: url(../images/yellow_overlay.png);
   background-blend-mode: multiply;
   padding: 10.2rem 0;
   text-align: center;
@@ -1171,7 +1171,7 @@ header .header_button a:before {
 .join_back:before {
   width: 100%;
   height: 7.9rem;
-  background-image: url(../../images/yellow_top.png);
+  background-image: url(../images/yellow_top.png);
   background-position: center top;
   position: absolute;
   top: -7.9rem;
@@ -1183,7 +1183,7 @@ header .header_button a:before {
 .join_back:after {
   width: 100%;
   height: 7.9rem;
-  background-image: url(../../images/yellow_bottom.png);
+  background-image: url(../images/yellow_bottom.png);
   background-position: center bottom;
   position: absolute;
   bottom: -7.9rem;
@@ -1259,7 +1259,7 @@ header .header_button a:before {
 .adventure_gallery_back .main_gallery .portion .cover:after {
   width: 100%;
   height: 12.7rem;
-  background: url(../../images/shadow.png) no-repeat center top;
+  background: url(../images/shadow.png) no-repeat center top;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1496,7 +1496,7 @@ header .header_button a:before {
   width: 100%;
   display: block;
   background-color: #e50695;
-  background-image: url(../../images/pink_overlay.png);
+  background-image: url(../images/pink_overlay.png);
   background-blend-mode: color-burn;
   padding: 4rem 0 0;
   position: relative;

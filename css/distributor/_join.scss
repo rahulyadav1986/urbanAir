@@ -1,7 +1,7 @@
 @import "color_variable";
 
 .join_back{
-    width: 100%; display: block; background-color:$primary_color ; background-image: url(../../images/yellow_overlay.png); background-blend-mode:multiply; padding: 10.2rem 0; text-align: center; position: relative;
+    width: 100%; display: block; background-color:$primary_color ; background-image: url(../images/yellow_overlay.png); background-blend-mode:multiply; padding: 10.2rem 0; text-align: center; position: relative;
    
     p{
         font-size: 1.8rem; padding: 0 5rem; line-height: 3.4rem;
@@ -12,9 +12,9 @@
         }
     }
     &:before{
-        width: 100%; height: 7.9rem; background-image: url(../../images/yellow_top.png); background-position: center top; position: absolute; top:-7.9rem; left: 0; content: ""; z-index: 9;
+        width: 100%; height: 7.9rem; background-image: url(../images/yellow_top.png); background-position: center top; position: absolute; top:-7.9rem; left: 0; content: ""; z-index: 9;
     }
     &:after{
-        width: 100%; height: 7.9rem; background-image: url(../../images/yellow_bottom.png); background-position: center bottom; position: absolute; bottom:-7.9rem; left: 0; content: ""; z-index: 9;
+        width: 100%; height: 7.9rem; background-image: url(../images/yellow_bottom.png); background-position: center bottom; position: absolute; bottom:-7.9rem; left: 0; content: ""; z-index: 9;
     }
 }

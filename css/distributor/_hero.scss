@@ -9,7 +9,7 @@
         height: 87.4rem; width: 100%; position: relative;
     }
     &:after{
-        width: 100%; height: 7.9rem; background-image: url(../../images/banner_bottom_overlay.png); background-position: center top; position: absolute; bottom: -3.9rem; left: 0; content: ""; z-index: 9;
+        width: 100%; height: 7.9rem; background-image: url(../images/banner_bottom_overlay.png); background-position: center top; position: absolute; bottom: -3.9rem; left: 0; content: ""; z-index: 9;
     }
     img{
         width: 100%; height: 100%; object-fit: cover; object-position: right bottom; position: absolute; top: 0; left: 0;
@@ -21,7 +21,7 @@
         height: 100%; position: absolute; top: 0; left: 0;
     }
     .contain_back{
-        width: 759px; height: 562px; background-image: url(../../images/banner_content_overlay.png); background-repeat: no-repeat; background-size: contain; position: absolute; bottom: 13px; left: 60px; text-align: center; padding-top: 35px; z-index: 10;
+        width: 759px; height: 562px; background-image: url(../images/banner_content_overlay.png); background-repeat: no-repeat; background-size: contain; position: absolute; bottom: 13px; left: 60px; text-align: center; padding-top: 35px; z-index: 10;
         .main_content_back{
             span{
                 background-image: url(../../images/oval.png); position: absolute; top: 0; left: -176px; width: 771px; height: 379px;
@@ -39,10 +39,10 @@
             .custom_button{
                 position: relative;
                 &:before{
-                    background-image: url(../../images/a_child.png); width: 95px; height: 204px; position: absolute; top: -43px; left: -95px; content: "";
+                    background-image: url(../images/a_child.png); width: 95px; height: 204px; position: absolute; top: -43px; left: -95px; content: "";
                 }
                 &:after{
-                    background-image: url(../../images/a_ladies.png); width: 141px; height: 204px; position: absolute; top: -44px; right: -141px; content: "";
+                    background-image: url(../images/a_ladies.png); width: 141px; height: 204px; position: absolute; top: -44px; right: -141px; content: "";
                 }
             }
         }
