@@ -46,6 +46,9 @@
 
 @media only screen and (max-width:767px){
     .memories_back{
+        .container-fluid{
+            padding: 0 15px;
+        }
         .main_gallery{
             grid-template-columns: repeat(2, 1fr); grid-template-rows: auto; grid-gap: 3px;
             .portion{

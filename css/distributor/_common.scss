@@ -7,13 +7,13 @@
 
 
 body{
-    font-family: 'Catamaran', sans-serif;  color: $common_color;
+    font-family: 'Catamaran', sans-serif;  color: $common_color; font-weight: 500;
 }
 html{
     font-size: 62.5%;
 }
 p{
-    margin: 0; padding: 0;
+    margin: 0; padding: 0; 
 }
 
 h1, h2, h3, h3, h4, h5, h6{
@@ -95,6 +95,13 @@ a:hover{
     display: inline-block; margin-top: 3.6rem;
     a{
         background-color: $tertiary_color; color: $white; font-size: 1.8rem; text-transform: capitalize; padding: 1rem 5rem; display: block; border-radius: 3px; font-family: 'Sansei';
+    }
+}
+
+.custom_button{
+    display: inline-block; margin-top: 3.6rem;
+    .input_button{
+        background-color: $tertiary_color; color: $white; font-size: 1.8rem; text-transform: capitalize; padding: 1rem 5rem; display: block; border-radius: 3px; font-family: 'Sansei'; border: none; outline-style: none; cursor: pointer;
     }
 }
 

@@ -1,0 +1,90 @@
+@import "color_variable";
+footer{
+    width: 100%; display: block; background: url(../images/ft_bg.png) center $footer_color; padding: 6rem 0; text-align: center; text-align: center;
+    .logo{
+        margin-bottom: 5.5rem; display: inline-block;
+    }
+    h2{
+        color: $white; font-size: 4.6rem; margin-bottom: 6.7rem;
+        span{
+            color: $primary_color;
+        }
+        img{height: 6.4rem;}
+    }
+    ul{
+        &.ft_menu{
+            li{
+                margin-right: 2.7rem;
+                &:last-child{
+                    margin-right:0 ;
+                    a{
+                        padding-right: 0;
+                        &::after{
+                            display: none;
+                        }
+                    }
+                }
+                a{
+                    padding-right: 2.7rem; position: relative; font-size: 1.8rem; color: $white; text-transform: uppercase; font-weight: 300;
+                    &:after{
+                        width: 2px; height: 3.7rem; background-color: #2d415b; position: absolute; top: 0; bottom: 0; margin: auto; right: 0; content: "";
+                    }
+                }
+            }
+        }
+    }
+}
+
+.copyright{
+    width: 100%; background-color: #06111f; padding: 3.4rem;
+    p{
+        color: $white; font-size: 1.8rem; font-weight: 700;
+    }
+    .ft_social{
+        li{
+            margin-right: 1.5rem;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1023px){
+    footer {
+        ul{
+            &.ft_menu {
+                li{
+                    margin-right: 1rem;
+                    a{
+                        font-size: 1.4rem;
+                        padding-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:500px){
+
+    footer {
+        ul{
+            &.ft_menu {
+                justify-content: space-between;
+                li{
+                    width: 50%;
+                    margin-right: 0;
+                    margin-bottom: 2.5rem;
+                    a{
+                        font-size: 2rem;
+                        padding-right: 0;
+                        &::after{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
